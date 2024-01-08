@@ -1,34 +1,43 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Clima - Weather App
 
+Clima is a user-friendly weather application that provides real-time weather information based on the device's location or a manually entered city. Whether you want to check the current temperature, humidity, or weather conditions in a specific location, Clima has got you covered.
 
-# Clima ☁
+## Features
 
-## Our Goal
+- **Automatic Location Detection:** Clima automatically detects the device's location and provides weather information for that area.
 
-The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
+- **Manual Location Entry:** Users can also manually enter a city name to get the weather information for a different location.
 
+- **Temperature and Humidity:** Get accurate and up-to-date information on temperature and humidity levels.
 
-## What you will create
+<img src="https://github.com/dshreddy/clima-flutter/assets/127737097/e7e5d9e8-7f58-4f0a-a3d5-bfb7df125d1c" width="400" height="400">
+<img src="https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5" width="400" height="400">
+<img src="https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9" width="400" height="400">
 
-We’re going to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). By the end of the module, you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
+## Installation
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/clima-demo.gif)
+To use Clima, follow these simple steps:
 
-## What you will learn
+1. Clone the repository to your local machine:
 
-- How to use Dart to perform asynchronous tasks.
-- Understand async and await.
-- Learn about Futures and how to work with them.
-- How to network with the Dart http package.
-- What APIs are and how to use them to get data from the internet.
-- What JSONs are and how to parse them using the Dart convert package.
-- How to pass data forwards and backwards between screens using the Navigator.
-- How to handle exceptions in Dart using try/catch/throw.
-- Learn about the lifecycle of Stateful Widgets and how to override them.
-- How to use the Geolocator package to get live location data for both iOS and Android.
-- How to use the TextField Widget to take user input.
+   ```bash
+   git clone https://github.com/your-username/clima.git
+   ```
 
+2. Open the Clima project in your preferred code editor.
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+3. Run the application on your device or simulator.
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+## Usage
+
+The web app is hosted at [link](https://dshreddy.github.io/clima-flutter/)
+
+## Dependencies
+
+Clima utilizes the following libraries and APIs:
+
+- [OpenWeatherMap API](https://openweathermap.org/api): Clima fetches weather data from the OpenWeatherMap API.
+
+## Configuration
+
+Before running the app, make sure to set up your API key from OpenWeatherMap. Replace the placeholder `YOUR_API_KEY` in the `Constants.swift` file with your actual API key.
