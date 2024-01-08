@@ -10,9 +10,11 @@ Clima is a user-friendly weather application that provides real-time weather inf
 
 - **Temperature and Humidity:** Get accurate and up-to-date information on temperature and humidity levels.
 
-- ![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 44 53](https://github.com/dshreddy/clima-flutter/assets/127737097/e7e5d9e8-7f58-4f0a-a3d5-bfb7df125d1c)
-- ![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 43 23](https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5)
-- ![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 41 45](https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9)
+## Screenshots
+
+![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 44 53](https://github.com/dshreddy/clima-flutter/assets/127737097/e7e5d9e8-7f58-4f0a-a3d5-bfb7df125d1c | width=200)
+![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 43 23](https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5 | width=200)
+![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 41 45](https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9 | width=200)
 
 ## Installation
 
@@ -21,7 +23,7 @@ To use Clima, follow these simple steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/clima.git
+   git clone https://github.com/dshreddy/clima-flutter.git
    ```
 
 2. Open the Clima project in your preferred code editor.
