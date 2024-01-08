@@ -26,8 +26,4 @@ Clima utilizes the following libraries and APIs:
 
 - [OpenWeatherMap API](https://openweathermap.org/api): Clima fetches weather data from the OpenWeatherMap API.
 - [rflutter_alert](https://pub.dev/packages/rflutter_alert)
-
-
-## Configuration
-
-Before running the app, make sure to set up your API key from OpenWeatherMap. Replace the placeholder `YOUR_API_KEY` in the `Constants.swift` file with your actual API key.
+- many more dart & flutter packages (--have to edit this)
