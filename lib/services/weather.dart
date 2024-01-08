@@ -1,6 +1,8 @@
 import 'package:clima/services/location.dart';
 import 'package:clima/services/networking.dart';
 
+import '../core/utils/image_constant.dart';
+
 const openWeatherMap = 'api.openweathermap.org';
 const openWeatherMapPath = 'data/2.5/weather';
 const apiKey = '3e683d4051eb5acad1b2fa4b1dddc7b6';
@@ -37,23 +39,27 @@ class WeatherModel {
     return weatherData;
   }
 
-  String getWeatherIcon(int condition) {
+  String getWeatherIcon(int condition, String icon) {
     if (condition < 300) {
-      return '🌩';
+      return 'images/storm.png';
     } else if (condition < 400) {
-      return '🌧';
+      return 'images/drizzle.png';
     } else if (condition < 600) {
-      return '☔️';
+      return 'images/rain.png';
     } else if (condition < 700) {
-      return '☃️';
+      return 'images/snow.png';
     } else if (condition < 800) {
-      return '🌫';
+      return 'images/breeze.png';
     } else if (condition == 800) {
-      return '☀️';
+      if (icon[2] == 'd') {
+        return 'images/sun.png';
+      } else {
+        return 'images/moon.png';
+      }
     } else if (condition <= 804) {
-      return '☁️';
+      return 'images/clouds.png';
     } else {
-      return '🤷‍';
+      return ImageConstant.imageNotFound;
     }
   }
 

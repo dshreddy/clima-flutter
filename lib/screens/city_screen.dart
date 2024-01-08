@@ -1,5 +1,6 @@
 import 'package:clima/utilities/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:clima/core/app_export.dart';
 
 class CityScreen extends StatefulWidget {
   const CityScreen({super.key});
@@ -15,31 +16,28 @@ class _CityScreenState extends State<CityScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('images/city_background.jpg'),
-            fit: BoxFit.cover,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: const Alignment(1, 0),
+            end: const Alignment(0, 1),
+            colors: [
+              appTheme.cyan300,
+              appTheme.blueA200,
+            ],
           ),
         ),
         constraints: const BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
             children: <Widget>[
-              Align(
-                alignment: Alignment.topLeft,
-                child: TextButton(
-                  onPressed: () {},
-                  child: const Icon(
-                    Icons.arrow_back_ios,
-                    size: 50.0,
-                  ),
-                ),
-              ),
               Container(
                 padding: const EdgeInsets.all(20.0),
                 child: TextField(
-                  style: const TextStyle(
-                    color: Colors.black,
+                  style: TextStyle(
+                    color: appTheme.blueA200,
+                    fontSize: 24,
+                    fontFamily: 'Overpass',
+                    fontWeight: FontWeight.w700,
                   ),
                   decoration: kTextFieldInputDecoration,
                   onChanged: (value) {
@@ -47,13 +45,32 @@ class _CityScreenState extends State<CityScreen> {
                   },
                 ),
               ),
-              TextButton(
-                onPressed: () {
-                  Navigator.pop(context, cityName);
-                },
-                child: const Text(
-                  'Get Weather',
-                  style: kButtonTextStyle,
+              Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 5,
+                      blurRadius: 7,
+                      offset: Offset(0, 3), // changes position of shadow
+                    ),
+                  ],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: TextButton(
+                  onPressed: () {
+                    Navigator.pop(context, cityName);
+                  },
+                  child: Text(
+                    "Get Weather",
+                    style: TextStyle(
+                      color: appTheme.blueGray400,
+                      fontSize: 24,
+                      fontFamily: 'Overpass',
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
                 ),
               ),
             ],
