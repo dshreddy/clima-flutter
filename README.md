@@ -14,19 +14,7 @@ Clima is a user-friendly weather application that provides real-time weather inf
 <img src="https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5" width="200" height="400">
 <img src="https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9" width="200" height="400">
 
-## Installation
-
-To use Clima, follow these simple steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/clima.git
-   ```
-
-2. Open the Clima project in your preferred code editor.
-
-3. Run the application on your device or simulator.
+- Note : The UI design is referred from https://www.figma.com/community/file/885501292477669105/weather-forecast-app for learning purpose.
 
 ## Usage
 
@@ -37,6 +25,8 @@ The web app is hosted at [link](https://dshreddy.github.io/clima-flutter/)
 Clima utilizes the following libraries and APIs:
 
 - [OpenWeatherMap API](https://openweathermap.org/api): Clima fetches weather data from the OpenWeatherMap API.
+- [rflutter_alert](https://pub.dev/packages/rflutter_alert)
+
 
 ## Configuration
 
