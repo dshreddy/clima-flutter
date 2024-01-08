@@ -10,6 +10,10 @@ Clima is a user-friendly weather application that provides real-time weather inf
 
 - **Temperature and Humidity:** Get accurate and up-to-date information on temperature and humidity levels.
 
+- ![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 44 53](https://github.com/dshreddy/clima-flutter/assets/127737097/e7e5d9e8-7f58-4f0a-a3d5-bfb7df125d1c)
+- ![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 43 23](https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5)
+- ![Simulator Screenshot - iPhone 15 - 2024-01-08 at 13 41 45](https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9)
+
 ## Installation
 
 To use Clima, follow these simple steps:
@@ -40,8 +44,6 @@ Clima utilizes the following libraries and APIs:
 
 - [OpenWeatherMap API](https://openweathermap.org/api): Clima fetches weather data from the OpenWeatherMap API.
 
-- [LocationManager](https://developer.apple.com/documentation/corelocation/locationmanager): For automatic location detection on iOS devices.
-
 ## Configuration
 
 Before running the app, make sure to set up your API key from OpenWeatherMap. Replace the placeholder `YOUR_API_KEY` in the `Constants.swift` file with your actual API key.
@@ -51,35 +53,3 @@ struct Constants {
     static let apiKey = "YOUR_API_KEY"
 }
 ```
-
-## Contributing
-
-If you'd like to contribute to Clima, follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add your commit message here"
-   ```
-
-4. Push your changes to your fork:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. Create a pull request to the main repository.
-
-## License
-
-Clima is licensed under the [MIT License](LICENSE.md).
-
-Feel free to use, modify, and distribute this app as needed. If you have any questions or suggestions, please open an issue or contact the maintainers. Happy coding!
