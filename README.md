@@ -12,9 +12,9 @@ Clima is a user-friendly weather application that provides real-time weather inf
 
 ## Screenshots
 
-![image](https://github.com/dshreddy/clima-flutter/assets/127737097/e7e5d9e8-7f58-4f0a-a3d5-bfb7df125d1c | width=200 | height=200)
-![image](https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5 | width=200)
-![image](https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9 | width=200)
+![image](https://github.com/dshreddy/clima-flutter/assets/127737097/e7e5d9e8-7f58-4f0a-a3d5-bfb7df125d1c)
+![image](https://github.com/dshreddy/clima-flutter/assets/127737097/2149cebe-0518-4292-8191-4f6fc5b154e5)
+![image](https://github.com/dshreddy/clima-flutter/assets/127737097/f28e8edb-136e-499f-a297-c42b3a10ccf9)
 
 ## Installation
 
